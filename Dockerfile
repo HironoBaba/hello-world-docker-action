@@ -8,7 +8,7 @@
 #COPY entrypoint.sh .
 
 # Configure the container to be run as an executable
-E#NTRYPOINT ["/usr/src/entrypoint.sh"]
+#ENTRYPOINT ["/usr/src/entrypoint.sh"]
 
 FROM alpine:3.10
 
